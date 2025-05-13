@@ -23,6 +23,7 @@ class Trigo {
 	method crecer(){
 		estado.add(estado.first())
 		estado.remove(estado.first())
+		image = "wheat_" + estado.first() +".png"
 	}
 }
 
@@ -47,3 +48,6 @@ class Tomaco {
 
 object bebe {}
 object adulta {}
+
+
+
