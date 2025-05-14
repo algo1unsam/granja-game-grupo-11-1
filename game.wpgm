@@ -1,6 +1,7 @@
 import wollok.game.*
 import hector.*
 import cultivos.*
+import aspersor.*
 import config.*
 
 program farmville {
@@ -12,6 +13,7 @@ program farmville {
 	config.configurarTeclas()
 
 	//  VISUALES
+	game.addVisual(aspersor)
  	game.addVisualCharacter(hector)
  //	game.addVisualIn(new Maiz(), game.at(1, 1))
  	
